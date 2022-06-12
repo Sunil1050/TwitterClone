@@ -1,0 +1,25 @@
+POST http://localhost:3000/register/
+Content-Type:application/json
+
+{
+    "username":"Sunil1050",
+    "password":"Sunil@1050",
+    "name":"Sunil Chitikina",
+    "gender":"male"
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type:application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+###
+GET http://localhost:3000/user/tweets/feed/
+
+###
+GET http://localhost:3000/user/following/
+
